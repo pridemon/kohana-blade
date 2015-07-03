@@ -1,0 +1,15 @@
+{
+    "name": "pridemon/kohana-blade",
+    "description": "Laravel Blade Template engine for Kohana Framework",
+    "type": "kohana-module",
+    "require": {
+        "philo/laravel-blade": "3.*"
+    },
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Ilya Gudkov",
+            "email": "pridemon@yandex.ru"
+        }
+    ]
+}
