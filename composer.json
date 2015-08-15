@@ -1,6 +1,7 @@
 {
     "name": "pridemon/kohana-blade",
-    "description": "Laravel Blade Template engine for Kohana Framework",
+    "description": "Integration of Laravel Blade Template engine for Kohana Framework",
+    "keywords": ["Kohana", "Blade", "Templates"]
     "type": "kohana-module",
     "require": {
         "philo/laravel-blade": "3.*"
