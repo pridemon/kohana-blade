@@ -1,9 +1,9 @@
-# kohana-blade
-Laravel Blade Template engine for Kohana Framework
+# Kohana Blade
+Laravel Blade Templating engine for Kohana 3.* Framework based on https://github.com/PhiloNL/Laravel-Blade standalone component
 
-#Install
+#Installation
 
-Add this into your composer.json repositories section
+Add this into your `composer.json` repositories section
 
 ```json
   "repositories" :[
@@ -20,9 +20,9 @@ and require section
         "pridemon/kohana-blade"		: "dev-master"
   }
 ```
-then run composer install
+then run `composer install`
 
-Include Kohana blade integration into your bootstrap.php file
+Include Kohana blade integration into your kohana `bootstrap.php` file
 ```php
 Kohana::modules(array(
   
@@ -32,7 +32,7 @@ Kohana::modules(array(
 ```
 # Usage
 
-For a example, place Hello.blade.php into Views directory
+For a example, place `Hello.blade.php` into `application\views` directory
 
 ```blade
 @extends('layouts.master')
@@ -50,7 +50,7 @@ For a example, place Hello.blade.php into Views directory
 @endsection
 ```
 
-Now, in Controller action you can write something like this: 
+Now, you can write something like this in controllers actions: 
 
 ```php         
 $value2 = 'foo';
