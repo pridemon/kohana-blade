@@ -6,4 +6,4 @@ if (!file_exists(APPPATH.'cache/blade')) {
    mkdir(APPPATH.'cache/blade', 0755);
 }
 
-require Stativo::find_file('vendor', 'autoload');
+require Kohana::find_file('vendor', 'autoload');
