@@ -1,25 +1,14 @@
 # Kohana Blade
-Laravel Blade Templating engine for Kohana 3.* Framework based on https://github.com/PhiloNL/Laravel-Blade standalone component
+[Laravel](http://laravel.com/) [Blade Templating engine](http://laravel.com/docs/5.0/templates) for [Kohana 3.* Framework](http://kohanaframework.org/) based on [Philo Laravel-Blade](https://github.com/PhiloNL/Laravel-Blade) standalone component
 
 #Installation
 
-Add this into your `composer.json` repositories section
+add to your project by
 
-```json
-  "repositories" :[
-      {
-          "type":"git",
-          "url":"https://github.com/pridemon/kohana-blade.git"
-      },
-  ],
 ```
-and require section
+composer require pridemon/kohana-blade
+```
 
-```json
-  "require":{
-        "pridemon/kohana-blade"		: "dev-master"
-  }
-```
 then run `composer install`
 
 Include Kohana blade integration into your kohana `bootstrap.php` file
