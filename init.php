@@ -5,5 +5,3 @@
 if (!file_exists(APPPATH.'cache/blade')) {
    mkdir(APPPATH.'cache/blade', 0755);
 }
-
-require Kohana::find_file('vendor', 'autoload');
